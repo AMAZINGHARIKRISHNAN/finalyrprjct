@@ -24,11 +24,4 @@ Whether it's identifying signs of **COVID-19**, **tuberculosis**, **rash**, or *
 - **User-Centric Design**  
   Clean UI and intuitive flow optimized for both patients and doctors.
 
----
 
-## 🛠 Installation
-
-1. Install [Flutter](https://flutter.dev/docs/get-started/install) on your system.
-2. Clone this repository:
-   ```bash
-   git clone https://github.com/your-username/digi-X-care.git
