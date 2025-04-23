@@ -1,27 +1,24 @@
-# Digi-X-Care
+🚑 Digi-X-Care
+📌 Overview
+Digi-X-Care is an AI-powered telemedicine application built using Flutter that revolutionizes how users access preliminary medical support. By combining image-based and symptom-based analysis, the app empowers users to upload skin condition images (like rashes or wounds) and input symptoms via text or voice.
 
-## Overview
-**Digi-X-Care** is a next-generation telemedicine platform developed using Flutter, empowering users to take proactive control of their health. The app allows users to upload **X-ray images** and **input symptoms**, which are then analyzed using advanced **multi-modal AI models**. By integrating **CLIP**, **BioGPT**, and **BioClinicalBERT**, Digi-X-Care provides condition detection, severity classification, and AI-driven remedy suggestions—all within a single interface.
+Our system harnesses the strength of CLIP, BioGPT, LLaMA-3.3-70B, and BioClinicalBERT to provide accurate condition identification, severity prediction, and smart medical suggestions—all through a user-friendly mobile interface. Digi-X-Care brings accessible, intelligent, and responsive healthcare to everyone, especially in underserved regions.
 
-Whether it's identifying signs of **COVID-19**, **tuberculosis**, **rash**, or **wounds**, Digi-X-Care brings medical-grade diagnostics to your fingertips, bridging the gap between users and healthcare professionals.
+🔍 Key Features
+🧠 Multi-Modal Diagnosis
+Combines CLIP for image analysis and BioGPT for symptom understanding to ensure accurate and contextual health insights.
 
----
+🔄 Consistency Validation
+Uses LLaMA-3.3-70B to match and verify consistency between image findings and symptom descriptions, reducing misdiagnosis.
 
-## 🔍 Key Features
+📊 Risk Severity Classification
+Employs BioClinicalBERT to categorize cases into Low or High severity, optimizing triage decisions.
 
-- **Multi-modal Medical Analysis**  
-  Analyze X-rays and text-based symptoms using cutting-edge AI (CLIP + BioGPT).
+💡 Smart Remedy Suggestions
+For Low-severity cases, AI suggests self-care remedies and lifestyle guidance. For High-severity cases, it flags the issue for doctor review.
 
-- **Severity Prediction**  
-  Classify the condition as **Low**, **Medium**, or **High** severity using **BioClinicalBERT**.
+🔐 Privacy-First Approach
+All medical data is securely processed and stored, ensuring patient confidentiality and ethical AI usage.
 
-- **Smart Remedy System**  
-  For Low/Medium severity, receive AI-recommended remedies; for High severity, get referral alerts to consult a doctor.
-
-- **Secure and Private**  
-  User data is encrypted and processed confidentially.
-
-- **User-Centric Design**  
-  Clean UI and intuitive flow optimized for both patients and doctors.
-
-
+📱 Designed for Everyone
+Clean, intuitive mobile interface developed using Flutter, optimized for both patient ease-of-use and clinical efficiency.
